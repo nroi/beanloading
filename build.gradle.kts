@@ -3,10 +3,10 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
 
 	// Works fine with this version:
-//	id("org.springframework.boot") version "2.4.1"
+	id("org.springframework.boot") version "2.4.1"
 
 	// With this version, it seems to work only on some machines:
-	id("org.springframework.boot") version "2.3.12.RELEASE"
+	// id("org.springframework.boot") version "2.3.12.RELEASE"
 
 	id("io.spring.dependency-management") version "1.0.15.RELEASE"
 	kotlin("jvm") version "1.6.21"
